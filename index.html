@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/tailwind.css">
+</head>
+
+<body class="font-fredoka">
+    <!-- header -->
+    <header class="header fixed w-[100%] bg-background z-10 ">
+        <div class="container flex items-center justify-between py-[10px]">
+            <a href="">
+                <img src="images/logo.svg" alt="">
+            </a>
+            <ul class="nav-list flex gap-[40px] hidden md:flex">
+                <li class="nav-item"><a href="#" class="nav-link hover:text-primary duration-300 text-[14px]">Home </a>
+                </li>
+                <li class="nav-item"><a href="#"
+                        class="nav-link hover:text-primary duration-300 text-[14px]">Product</a></li>
+                <li class="nav-item"><a href="#"
+                        class="nav-link hover:text-primary duration-300 text-[14px]">Pricing</a></li>
+                <li class="nav-item"><a href="#"
+                        class="nav-link hover:text-primary duration-300 text-[14px]">Testimonials</a></li>
+                <li class="nav-item"><a href="#" class="nav-link hover:text-primary duration-300 text-[14px]">Contact
+                        Us</a></li>
+            </ul>
+            <button
+                class=" hidden lg:inline-block text-[16px] border rounded-[5px]  border-primary px-[50px] py-[14px] bg-primary text-[#FAFAFA] hover:text-primary hover:bg-background hover:border border-[2px] hover:border-solid-[primary] hover:border-primary-400 duration-[0.5s]">Buy
+                Now</button>
+            <button id="navbar-open" class="block md:hidden">
+                <img src="images/menu.svg" alt="">
+            </button>
+        </div>
+    </header>
+    <ul id="navbar-responsive"
+        class=" duration-[0.7s] flex flex-col justify-center items-center fixed top-0 left-[-100%]  w-full bottom-0 bg-[#f9eeee] z-50  ">
+        <button id="navbar-close" class="absolute top-[25px] right-[25px]">
+            <img class="w-[40px]" src="images/close.svg " alt="img-close">
+        </button>
+        <li class="navbar-item"><a href="hero"
+                class="navbar-link inline-block py-[10px] w-[150px] text-center  text-[25px] bg-[pink] rounded-[5px] mb-7 duration-300 text-[14px]">Home
+            </a>
+        </li>
+        <li class="navbar-item"><a href="#"
+                class="navbar-link inline-block py-[10px] w-[150px] text-center  text-[25px] bg-[pink] rounded-[5px] mb-7 duration-300 text-[14px]">Product</a>
+        </li>
+        <li class="navbar-item"><a href="#"
+                class="navbar-link inline-block py-[10px] w-[150px] text-center  text-[25px] bg-[pink] rounded-[5px] mb-7 duration-300 text-[14px]">Pricing</a>
+        </li>
+        <li class="navbar-item"><a href="#"
+                class="navbar-link inline-block py-[10px] w-[150px] text-center  text-[25px] bg-[pink] rounded-[5px] mb-7 duration-300 text-[14px]">Testimonials</a>
+        </li>
+        <li class="navbar-item"><a href="#"
+                class="navbar-link inline-block py-[10px] w-[150px] text-center  text-[25px] bg-[pink] rounded-[5px] mb-7 duration-300 text-[14px]">Contact
+                Us</a></li>
+        <button
+            class="py-[19px] px-[50px] text-[white] rounded-[4px] bg-primary hover:bg-background hover:text-primary hover:border-[1px] duration-500">Buy
+            Now</button>
+    </ul>
+    <!-- header -->
+
+
+    <!-- main -->
+
+    <!-- hero section -->
+    <section id="hero" class="pt-[100px] bg-background w-full">
+        <div class="container flex sm:flex-col md:flex-col lg:flex-row xl:flex-row">
+            <div class="site-left  pt-[80px] sm:text-center 2xl:text-left ">
+                <h4 class="text-secondary">Sweet fun, full of milk.</h4>
+                <h1 class="text-[57px] font-bold">Feel inside cold with our delicious <span
+                        class="text-primary">ice-cream.</span></h1>
+                <p class="z-[-10] opacity-[0.6] text-[18px] font-normal mb-[40px]">Some food has looked so
+                    awful that
+                    it's
+                    looked
+                    like
+                    something that
+                    the dog's
+                    brought home,
+                    yet after
+                    one mouthful I've
+                    been left eating my thoughts, my words.</p>
+                <button
+                    class=" mb-[146px] md:text-center 2xl:text-right text-[16px] border rounded-[5px]  border-primary px-[50px] py-[14px] bg-primary text-[#FAFAFA] hover:text-primary hover:bg-background hover:border border-[2px] hover:border-solid-[primary] hover:border-primary-400 duration-[0.5s]">Buy
+                    Now</button>
+            </div>
+            <div class="site-right">
+                <img src="images/hero_bg-image.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- hero section -->
+    <!-- section buy -->
+    <section id="buy" class="py-[100px]">
+        <div class="container">
+            <div
+                class="buy-cards grid grid-cols-4 gap-[40px] sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 md:w-full ">
+                <div class="buy-cardc pt-[33px] pr-[26px] pb-[26px] pl-[26px] border rounded-[7px]  border-none shadow">
+                    <img class="mb-[24px] mr-auto ml-auto" src="images/sheping.svg" alt="">
+                    <h5 class="text-[20px] text-[black] text-center mb-[9px]"><b>Free Shipping</b></h5>
+                    <p class="text-center opacity-[0.6]">Last Chance! Free shipping on all orders ends today.</p>
+                </div>
+                <div class="buy-cardc pt-[33px] pr-[26px] pb-[26px] pl-[26px] border rounded-[7px]  border-none shadow">
+                    <img class="mb-[24px] mr-auto ml-auto" src="images/packing.svg" alt="">
+                    <h5 class="text-[20px] text-[black] text-center mb-[9px]"><b>Quick Packaging</b></h5>
+                    <p class="text-center opacity-[0.6]">Last Chance! Free shipping on all orders ends today.</p>
+                </div>
+                <div class="buy-cardc pt-[33px] pr-[26px] pb-[26px] pl-[26px] border rounded-[7px]  border-none shadow">
+                    <img class="mb-[24px] mr-auto ml-auto" src="images/money.svg" alt="">
+                    <h5 class="text-[20px] text-[black] text-center mb-[9px]"><b>100% Money Back</b></h5>
+                    <p class="text-center opacity-[0.6]">Last Chance! Free shipping on all orders ends today.</p>
+                </div>
+                <div class="buy-cardc pt-[33px] pr-[26px] pb-[26px] pl-[26px] border rounded-[7px]  border-none shadow">
+                    <img class="mb-[16px] mr-auto ml-auto" src="images/delivary.svg" alt="">
+                    <h5 class="text-[20px] text-[black] text-center mb-[9px]"><b>Fast Delivery</b></h5>
+                    <p class="text-center opacity-[0.6]">Last Chance! Free shipping on all orders ends today.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section buy -->
+
+    <!-- section details -->
+    <section class="w-full bg-background py-[50px]">
+        <div class="container flex text-left items-center sm:flex-col md:flex-col lg:flex-col xl:flex-row 2xl:flex-row">
+            <div class="sm:text-center md:text-center lg:text-center xl:text-left 2xl:text-left">
+                <h2 class="text-[44px] font-semibold">Brown Sugar Oatmea</h2>
+                <p class="opacity-[0.6] text-[16px] font-normal mb-[25px]">Together with McDonald’s, Burger King has
+                    grown
+                    to
+                    become
+                    synonymous with
+                    burgers in the
+                    US.Together
+                    with McDonald’s,
+                    Burger King has grown to become synonymous.</p>
+                <button
+                    class="  text-[16px] border rounded-[5px]  border-primary px-[50px] py-[14px] bg-primary text-[#FAFAFA] hover:text-primary hover:bg-background hover:border border-[2px] hover:border-solid-[primary] hover:border-primary-400 duration-[0.5s]">See
+                    Details</button>
+            </div>
+            <div>
+                <img src="images/sugar-right.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- section details -->
+
+    <!-- section product -->
+    <section id="product">
+        <div class="container">
+            <h2 class="">Our Product</h2>
+            <div>
+                <a class="" href="">ICE CREAM</a>
+                <a class="" href="">CAYENNE CHOCOLATE</a>
+                <a class="" href="">CAKE BATTER</a>
+                <a class="" href="">CANDY CANE</a>
+                <a class="" href="">PLATTERS</a>
+                <a class="" href="">DESSERT</a>
+            </div>
+        </div>
+    </section>
+    <!-- section product -->
+
+
+    <!-- main -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
